@@ -5,9 +5,9 @@
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Materials and Methods](#materials-and-methods)
-  - [Devenv](#devenvdevenv)
-  - [Opencode](#opencodeopencode)
-  - [Openrouter](#openrouter-openrouter)
+  - [Devenv](#devenv9)
+  - [Opencode](#opencode1)
+  - [Openrouter](#openrouter11)
     - [Resources](#resources)
   - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
     - [Resources](#resources-1)
@@ -162,7 +162,7 @@ components of our project.
 > allows the interaction with the Agent to happen over a variety of messaging
 > apps, such as Whatsapp, Signal, among others.
 
-### Openrouter [^openrouter]
+### Openrouter[^openrouter]
 
 Unified interface to connect to various AI providers, this is where we can fetch
 our LLM models.
