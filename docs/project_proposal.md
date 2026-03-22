@@ -2,28 +2,27 @@
 
 <!--toc:start-->
 
-- [IoT/Embedded Systems project proposal](#iotembedded-systems-project-proposal)
-  - [Introduction](#introduction)
-  - [Objectives](#objectives)
-  - [Materials and Methods](#materials-and-methods)
-    - [Devenv](#devenv)
-    - [Opencode](#opencode)
-    - [Openrouter](#openrouter)
-      - [Resources](#resources)
-    - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
-      - [Resources](#resources)
-    - [Language Server Protocol (LSP) and Formatters](#language-server-protocol-lsp-and-formatters)
-      - [Resources](#resources)
-    - [Skills (Prompt Injection)](#skills-prompt-injection)
-      - [Resources](#resources)
-    - [Tools](#tools)
-      - [Resources](#resources)
-    - [Docusaurus](#docusaurus)
-      - [Resources](#resources)
-    - [Preexisting Agent configurations](#preexisting-agent-configurations)
-      - [Resources](#resources)
-  - [Cronogram](#cronogram)
-  - [References](#references)
+- [Introduction](#introduction)
+- [Objectives](#objectives)
+- [Materials and Methods](#materials-and-methods)
+  - [Devenv](#devenvdevenv)
+  - [Opencode](#opencodeopencode)
+  - [Openrouter](#openrouter-openrouter)
+    - [Resources](#resources)
+  - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
+    - [Resources](#resources-1)
+  - [Language Server Protocol (LSP) and Formatters](#language-server-protocol-lsp-and-formatters)
+    - [Resources](#resources-2)
+  - [Skills (Prompt Injection)](#skills-prompt-injection)
+    - [Resources](#resources-3)
+  - [Tools](#tools)
+    - [Resources](#resources-4)
+  - [Docusaurus](#docusaurus)
+    - [Resources](#resources-5)
+  - [Preexisting Agent configurations](#preexisting-agent-configurations)
+    - [Resources](#resources-6)
+- [Cronogram](#cronogram)
+- [References](#references)
 
 <!--toc:end-->
 
@@ -135,7 +134,7 @@ cons associated with that choice:
     by any open-source developer, without being legally bound by any particular
     vendor.
 
-### Devenv[^devenv] {#devenv}
+### Devenv[^devenv]
 
 Framework for declaratively creating reproducible development environments using
 Nix. Nix is a package manager that allows for the installation and configuration
@@ -151,7 +150,7 @@ that rebuilding it from scratch should be as simple as running the command
 >
 > Nix is how manage my own computer's configuration [^nix-config]
 
-### Opencode[^opencode] {#opencode}
+### Opencode[^opencode]
 
 Client and framework for accessing, configuring, and interacting with AI Agents
 though terminal and web-based interfaces. This is the glue that will bind the
@@ -163,12 +162,12 @@ components of our project.
 > allows the interaction with the Agent to happen over a variety of messaging
 > apps, such as Whatsapp, Signal, among others.
 
-### Openrouter [^openrouter] {#openrouter}
+### Openrouter [^openrouter]
 
 Unified interface to connect to various AI providers, this is where we can fetch
 our LLM models.
 
-#### Resources {#resources-openrouter}
+#### Resources
 
 - Promptfoo [^promptfoo]: a tool to programatically and comparatively test how
   different models perform when responding to a given set of prompts.
@@ -182,7 +181,7 @@ tools, systems, and data sources without relying exclusively in it pre-training
 have a performance on par with bigger, more general use models. There are many
 MCP resources for pre-configured local or remote MCP servers, such as:
 
-#### Resources {#resources-mcp}
+#### Resources
 
 - Github's Official Registry [^mcp-github];
 
@@ -190,7 +189,7 @@ MCP resources for pre-configured local or remote MCP servers, such as:
 
 - Awesome MCP Servers [^mcp-servers];
 
-- OpenCode MCP Documentation [^mcpopencode]
+- OpenCode MCP Documentation [^mcp-opencode]
 
 ### Language Server Protocol (LSP) and Formatters
 
@@ -201,7 +200,7 @@ better write code. OpenCode already ships with a variety of LSP srevers
 pre-installed and pre-configured but we might want to add others or change some
 of the defaults settings.
 
-#### Resources {#resources-lsp}
+#### Resources
 
 - LSP Specification [^lsp-org]
 
@@ -212,7 +211,7 @@ of the defaults settings.
 Markdown formatted documents with instructions for the AI model to perform given
 specific tasks effectively.
 
-#### Resources {#resources-skills}
+#### Resources
 
 - anthropics/skills [^skills-antropic]
 
@@ -233,7 +232,7 @@ The many external resources that our agent should act upon (say, sql servers,
 python environment with scientific computing libraries). Preferably exposed and
 configured with proper permissions settings.
 
-#### Resources {#resources-tools}
+#### Resources
 
 - OpenCode Documentation on Tooling [^tools-opencode]
 
@@ -243,7 +242,7 @@ A tool to generate wikis from a repository of markdown formatted files. Should
 be used to document this project, the agents created and their specific
 configurations.
 
-#### Resources {#resources-docusaurus}
+#### Resources
 
 - Docusaurus Documentation [^docs-docusaurus]
 
@@ -257,7 +256,7 @@ configurations.
 
 Agents created and shared by other authors.
 
-#### Resources {#resources-agents}
+#### Resources
 
 - The Agency [^agents-agency]
 
@@ -307,7 +306,7 @@ Agents created and shared by other authors.
 
 [^mcp-servers]: https://github.com/wong2/awesome-mcp-servers
 
-[^mcpopencode]: https://opencode.ai/docs/
+[^mcp-opencode]: https://opencode.ai/docs/
 
 [^lsp-org]: https://microsoft.github.io/language-server-protocol/
 
